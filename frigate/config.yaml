@@ -1,7 +1,7 @@
-name: Frigate
+name: my Frigate
 version: 0.12.2
 panel_icon: "mdi:cctv"
-panel_title: Frigate
+panel_title: My Frigate
 slug: frigate
 description: NVR with realtime local object detection for IP cameras
 url: "https://github.com/ensmings/frigate"
