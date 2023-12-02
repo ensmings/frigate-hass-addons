@@ -2,7 +2,7 @@ name: Frigate 32
 version: 0.12.3
 panel_icon: "mdi:cctv"
 panel_title: Frigate 32
-slug: frigate 32
+slug: frigate32
 description: NVR with realtime local object detection for IP cameras
 url: "https://github.com/ensmings/frigate32"
 image: ghcr.io/ensmings/frigate32
