@@ -1,11 +1,11 @@
-name: My Frigate
+name: Frigate 32
 version: 0.12.3
 panel_icon: "mdi:cctv"
-panel_title: My Frigate
-slug: frigate
+panel_title: Frigate 32
+slug: frigate 32
 description: NVR with realtime local object detection for IP cameras
-url: "https://github.com/ensmings/frigate"
-image: ghcr.io/ensmings/frigate
+url: "https://github.com/ensmings/frigate32"
+image: ghcr.io/ensmings/frigate32
 startup: application
 boot: auto
 init: false
