@@ -1,5 +1,5 @@
 name: Frigate 32
-version: 0.12.3
+version: 0.12.3-32
 panel_icon: "mdi:cctv"
 panel_title: Frigate 32
 slug: frigate32
