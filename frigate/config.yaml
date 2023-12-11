@@ -5,7 +5,7 @@ panel_title: Frigate 32
 slug: frigate
 description: NVR with realtime local object detection for IP cameras
 url: "https://github.com/ensmings/frigate32"
-image: ghcr.io/ensmings/frigate3
+image: ghcr.io/ensmings/frigate32
 startup: application
 boot: auto
 init: false
