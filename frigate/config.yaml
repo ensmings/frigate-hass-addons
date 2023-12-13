@@ -1,11 +1,11 @@
 name: Frigate 32
-version: 0.12.4
+version: 0.12.1_32
 panel_icon: "mdi:cctv"
 panel_title: Frigate 32
 slug: frigate
-description: NVR with realtime local object detection for IP cameras
-url: "https://github.com/ensmings/frigate32"
-image: ghcr.io/ensmings/frigate32
+description: Frigate compatible with 32 bit OS
+url: "https://github.com/ensmings/frigate"
+image: ghcr.io/ensmings/frigate
 startup: application
 boot: auto
 init: false
@@ -55,8 +55,6 @@ schema:
 services:
   - "mqtt:want"
 arch:
-  - amd64
-  - aarch64
   - armv7
 map:
   - "media:rw"
