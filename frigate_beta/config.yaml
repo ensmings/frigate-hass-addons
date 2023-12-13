@@ -1,11 +1,11 @@
-name: Frigate Beta (0.13.0)
-version: 0.13.0-beta5
+name: Frigate Beta (0.12.1_32)
+version: 0.12.1_32-beta1
 panel_icon: "mdi:cctv"
 panel_title: Frigate
 slug: frigate-beta
-description: NVR with realtime local object detection for IP cameras
-url: "https://github.com/blakeblackshear/frigate"
-image: ghcr.io/blakeblackshear/frigate
+description: Frigate compatible with 32 bit OS
+url: "https://github.com/ensmings/frigate"
+image: ghcr.io/ensmings/frigate
 startup: application
 boot: auto
 init: false
@@ -55,8 +55,6 @@ schema:
 services:
   - "mqtt:want"
 arch:
-  - amd64
-  - aarch64
   - armv7
 map:
   - "media:rw"
